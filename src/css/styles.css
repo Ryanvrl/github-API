@@ -143,7 +143,48 @@ main {
   transition: 0.3s ease-in-out;
 }
 
-.container .profile-data .repositories ul li a:hover{
+.container .profile-data .repositories .stats-repo {
+  display: block;
+  margin-top: 8px;
+}
+
+.container .profile-data .repositories .stats-repo .stats {
+  background-color: aqua;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 8px;
+  display: inline-block;
+}
+
+/* events */
+
+.container .profile-data .events h2{
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.container .profile-data .events ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container .profile-data .events ul li a{
+  padding: 15px;
+  border: 1px solid grey;  
+  margin: 10px;
+  display: block;
+  border-radius: 7px;
+  transition: 0.3s ease-in-out;
+  
+}
+
+.container .profile-data .events .event-type {
+  display: block;
+  font-weight: 700;
+}
+
+.container .profile-data .events ul li a:hover{
   background-color:hotpink;
   color: #fff
 }
